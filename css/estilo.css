@@ -1,0 +1,53 @@
+body
+{
+	background-color: maroon;
+	background-attachment: fixed;
+}
+
+button {
+	color: red;
+	background-color: cyan;
+}
+
+
+div
+{
+	display: block;
+	float: left;
+}
+
+div.ajedrez
+{
+   width: 800px;
+   height: 800px;
+   margin-left: 250px;
+}
+
+div.ajedrez div div
+{
+	width: 100px;
+	height: 80px;
+
+}
+
+div.ajedrez div:nth-child(odd) div:nth-child(odd)
+{
+	border:10px solid blue;
+
+}
+
+div.ajedrez div:nth-child(odd) div:nth-child(even)
+{
+	border:10px solid blue;
+}
+
+div.ajedrez div:nth-child(even) div:nth-child(even)
+{
+	border:10px solid blue;
+}
+
+div.ajedrez div:nth-child(even) div:nth-child(odd)
+{
+	border:10px solid blue;
+}
+

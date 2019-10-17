@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+
+
+
+<body>
+<br>
+
+<button onclick="zeta()">Z</button>
+<button onclick="superior()">Superior</button>
+<button onclick="lateral_izq()">Lateral I.</button>
+<button onclick="cruz()">CRUZ</button>
+<button onclick="equis()">X</button>
+<button onclick="slash_normal()">S.N</button>
+<button onclick="slash_invertido()">S.I</button>
+<button onclick="inferior()">Inferior</button>
+<button onclick="lateral_der()">Lateral D.</button>
+<button onclick="esquinas()">4 Esquinas</button>
+<button onclick="triangulo()">Triangulo</button>
+<button onclick="marco()">Marco</button>
+<button onclick="cuadro_x()">Cuadro X</button>
+<button onclick="reset()">Reset</button>
+
+<div class="ajedrez">
+	<div class="fila_1"> 
+	   <div id="11" class="diag_inv"></div>
+	   <div id="12"></div>
+	   <div id="13"></div>
+	   <div id="14" class="triangulo"></div>
+	   <div id="15" class="triangulo"></div>
+	   <div id="16"></div>
+	   <div id="17"></div>
+	   <div id="18" class="diag_norm"></div>
+    </div>
+
+
+    <div class="fila_2"> 
+
+	   <div id="21" class="lat_izq"></div>
+	   <div id="22" class="diag_inv"></div>
+	   <div id="23" class="triangulo"></div>
+	   <div id="24"></div>
+	   <div id="25"></div>
+	   <div id="26" class="triangulo"></div>
+	   <div id="27" class ="diag_norm"></div>
+	   <div id="28" class="lat_der"></div>
+    </div>
+
+   	<div class="fila_3"> 
+	   <div id="31" class="lat_izq"></div>
+	   <div id="32" class="triangulo"></div>
+	   <div id="33" class="diag_inv"></div>
+	   <div id="34"></div>
+	   <div id="35"></div>
+	   <div id="36" class ="diag_norm"></div>
+	   <div id="37" class="triangulo"></div>
+	   <div id="38" class="lat_der"></div>
+    </div>
+
+   	<div class="fila_4"> 
+	   <div id="41" class="lat_izq"></div>
+	   <div id="42"></div>
+	   <div id="43"></div>
+	   <div id="44" class="diag_inv"></div>
+	   <div id="45" class ="diag_norm"></div>
+	   <div id="46"></div>
+	   <div id="47"></div>
+	   <div id="48" class="lat_der"></div>
+    </div>
+
+   	<div class="fila_5"> 
+	   <div id="51" class="lat_izq"></div>
+	   <div id="52"></div>
+	   <div id="53"></div>
+	   <div id="54" class ="diag_norm"></div>
+	   <div id="55" class="diag_inv"></div>
+	   <div id="56"></div>
+	   <div id="57"></div>
+	   <div id="58" class="lat_der"></div>
+    </div>
+
+   	<div class="fila_6"> 
+	   <div id="61" class="lat_izq"></div>
+	   <div id="62"></div>
+	   <div id="63" class ="diag_norm"></div>
+	   <div id="64"></div>
+	   <div id="65"></div>
+	   <div id="66" class="diag_inv"></div>
+	   <div id="67"></div>
+	   <div id="68" class="lat_der"></div>
+    </div>
+
+    <div class="fila_7"> 
+	   <div id="71" class="lat_izq"></div>
+	   <div id="72" class ="diag_norm"></div>
+	   <div id="73"></div>
+	   <div id="74"></div>
+	   <div id="75"></div>
+	   <div id="76"></div>
+	   <div id="77" class="diag_inv"></div>
+	   <div id="78" class="lat_der"></div>
+    </div>
+
+    	<div class="fila_8"> 
+	   <div id="81" class="diag_norm"></div>
+	   <div id="82"></div>
+	   <div id="83"></div>
+	   <div id="84"></div>
+	   <div id="85"></div>
+	   <div id="86"></div>
+	   <div id="87"></div>
+	   <div id="88" class="diag_inv"></div>
+    </div>
+
+
+
+	
+</div>
+
+<script src="js/ajedrez.js"></script>
+</body>
+</html>
